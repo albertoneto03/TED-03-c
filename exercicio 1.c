@@ -14,6 +14,7 @@ int main (void){
     x = x+1;
   }
 
-  printf("zé passará de chico após %d anos",x);
+  printf("zÃ© passarÃ¡ de chico apÃ³s %d anos",x);
 
+  return 0;
 }
