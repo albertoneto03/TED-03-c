@@ -9,14 +9,14 @@ int main (void){
 
   printf("qual valor voce deseja para calcular a serie harmonica?");
   scanf("%d", &n);
-
+ 
   while (x <= n){
     h = h + (1.0 / x);
     x++;
   }
 
 
-    printf("com o valor %d, resultado da serie harmonica é: %f",n,h);
+    printf("com o valor %d, o resultado da serie harmonica Ã©: %f",n,h);
 
   return 0;
 }
